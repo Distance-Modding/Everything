@@ -1,0 +1,21 @@
+[submodule "Mod.Anolytics"]
+	path = Mod.Anolytics
+	url = https://github.com/Distance-Modding/Mod.Anolytics.git
+[submodule "Mod.DecorativeLamp"]
+	path = Mod.DecorativeLamp
+	url = https://github.com/Distance-Modding/Mod.DecorativeLamp.git
+[submodule "Mod.EditorAdditions"]
+	path = Mod.EditorAdditions
+	url = https://github.com/Distance-Modding/Mod.EditorAdditions.git
+[submodule "Mod.CustomWheelHologram"]
+	path = Mod.CustomWheelHologram
+	url = https://github.com/Distance-Modding/Mod.CustomWheelHologram.git
+[submodule "Mod.ChristmasSeasonalFeatures"]
+	path = Mod.ChristmasSeasonalFeatures
+	url = https://github.com/Distance-Modding/Mod.ChristmasSeasonalFeatures.git
+[submodule "Mod.CustomCar"]
+	path = Mod.CustomCar
+	url = https://github.com/Distance-Modding/Mod.CustomCar.git
+[submodule "Common.Json"]
+	path = Common.Json
+	url = https://github.com/Distance-Modding/Common.Json.git
