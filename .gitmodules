@@ -16,6 +16,3 @@
 [submodule "Mod.CustomCar"]
 	path = Mod.CustomCar
 	url = https://github.com/Distance-Modding/Mod.CustomCar.git
-[submodule "Common.Json"]
-	path = Common.Json
-	url = https://github.com/Distance-Modding/Common.Json.git
