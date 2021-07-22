@@ -42,17 +42,3 @@ foreach ($ModPath in $Mods) {
 		Remove-Item -Path "$ModBuild" -Force -Recurse
 	}
 }
-
-
-#foreach ($Dir in $Directories) {
-#	Write-Host "Building solution in directory $($Dir.Name)..."
-#
-#	$Solutions = Get-ChildItem -Filter "*.sln" $Dir.FullName
-#
-#	foreach ($Solution in $Solutions) {
-#		Write-Host "- $($Solution.Name)"
-#
-#		msbuild "$($Solution.FullName)" -t:restore
-#		msbuild "$($Solution.FullName)" -t:build
-#	}
-#}
