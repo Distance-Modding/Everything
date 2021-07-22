@@ -6,7 +6,7 @@ function Install-PSModule {
 
 	if (-Not $(Get-Module -ListAvailable -Name $Name)) {
 		Write-Host "Installing module $Name..."
-		Install-Module VSSetup -Scope CurrentUser -Force
+		Install-Module $Name -Scope CurrentUser -Force
 	}
 	else
 	{
