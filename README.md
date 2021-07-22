@@ -11,7 +11,7 @@ git clone --recurse-submodules -j8 git://github.com/Distance-Modding/Everything.
 
 In a *powershell command prompt**, run the [build.ps1](build.ps1) script:
 ```
-PS> ./build.ps1
+pwsh ./build.ps1
 ```
 The built mod files will be located in the `Build` folder next to the build script.
 
