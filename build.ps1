@@ -25,7 +25,7 @@ Install-PSModule BuildUtils
 $MSBuild = Get-LatestMsbuildLocation
 set-alias msbuild $MSBuild
 
-msbuild Mods.proj -m -p:Configuration=Release -maxcpucount:4
+msbuild Mods.proj -m -maxcpucount:4
 
 # ----- MOVE BUILD SUBFOLDERS INTO CURRENT DIRECTORY -----
 
@@ -33,10 +33,12 @@ $Current = Get-Location
 
 $Mods = Get-ChildItem -Filter "Mod.*" $Current.Name -Directory
 
-foreach ($ModPath in $Mods) {
+foreach ($ModPath in $Mods)
+{
 	$ModBuild = "$($ModPath.FullName)\Build"
 
-	if (Test-Path -Path "$ModBuild") {
+	if (Test-Path -Path "$ModBuild")
+	{
 		#Write-Host "Build directory: $($ModBuild)"
 		Copy-Item -Path "$ModBuild" -Destination "$Current" -Force -Recurse
 		Remove-Item -Path "$ModBuild" -Force -Recurse

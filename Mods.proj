@@ -2,11 +2,8 @@
 	<ItemGroup>
 		<Solution Include="**\*.sln" Exclude="**\*.wixproj" /> 
 	</ItemGroup>
-	<Target Name="BeforeBuild">
-		<Exec Command="nuget.exe restore @(Solution)"/> 
-	</Target>
 	<Target Name="Build">
-		<MSBuild Projects="@(Solution)" Targets="Build" Properties="Configuration=Release" StopOnFirstFailure="true" />
+		<MSBuild Projects="@(Solution)" Targets="Restore;Build" Properties="Configuration=Release;RestorePackagesConfig=true" StopOnFirstFailure="true" />
 		<Message Text="Building configuration $(Configuration) with output path $(OutputPath)" Importance="High" />
 	</Target>
 </Project>
