@@ -1,0 +1,12 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+	<ItemGroup>
+		<Solution Include="**\*.sln" Exclude="**\*.wixproj" /> 
+	</ItemGroup>
+	<Target Name="BeforeBuild">
+		<Exec Command="nuget.exe restore @(Solution)"/> 
+	</Target>
+	<Target Name="Build">
+		<MSBuild Projects="@(Solution)" Targets="Build" Properties="Configuration=Release" StopOnFirstFailure="true" />
+		<Message Text="Building configuration $(Configuration) with output path $(OutputPath)" Importance="High" />
+	</Target>
+</Project>
