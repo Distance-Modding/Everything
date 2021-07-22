@@ -17,7 +17,7 @@ function Install-PSModule {
 # Install VSSetup module
 Install-PSModule VSSetup
 
-# Install Build utils ommand
+# Install Build utils command
 Install-PSModule BuildUtils
 
 # ----- RUN BUILD -----
