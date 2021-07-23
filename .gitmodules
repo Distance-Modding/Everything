@@ -25,3 +25,9 @@
 [submodule "Mod.TrackMusic"]
 	path = Mod.TrackMusic
 	url = https://github.com/Distance-Modding/Mod.TrackMusic
+[submodule "Mod.NitronicHUD"]
+	path = Mod.NitronicHUD
+	url = https://github.com/Distance-Modding/Mod.NitronicHUD
+[submodule "Mod.TextureModifier"]
+	path = Mod.TextureModifier
+	url = https://github.com/Distance-Modding/Mod.TextureModifier
