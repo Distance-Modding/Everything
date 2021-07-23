@@ -16,3 +16,12 @@
 [submodule "Mod.CustomCar"]
 	path = Mod.CustomCar
 	url = https://github.com/Distance-Modding/Mod.CustomCar.git
+[submodule "Mod.SceneDumper"]
+	path = Mod.SceneDumper
+	url = https://github.com/Distance-Modding/Mod.SceneDumper
+[submodule "Mod.NoServerLimit"]
+	path = Mod.NoServerLimit
+	url = https://github.com/Distance-Modding/Mod.NoServerLimit
+[submodule "Mod.TrackMusic"]
+	path = Mod.TrackMusic
+	url = https://github.com/Distance-Modding/Mod.TrackMusic
