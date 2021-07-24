@@ -1,21 +1,21 @@
 [submodule "Mod.Anolytics"]
 	path = Mod.Anolytics
-	url = https://github.com/Distance-Modding/Mod.Anolytics.git
+	url = https://github.com/Distance-Modding/Mod.Anolytics
 [submodule "Mod.DecorativeLamp"]
 	path = Mod.DecorativeLamp
-	url = https://github.com/Distance-Modding/Mod.DecorativeLamp.git
+	url = https://github.com/Distance-Modding/Mod.DecorativeLamp
 [submodule "Mod.EditorAdditions"]
 	path = Mod.EditorAdditions
-	url = https://github.com/Distance-Modding/Mod.EditorAdditions.git
+	url = https://github.com/Distance-Modding/Mod.EditorAdditions
 [submodule "Mod.CustomWheelHologram"]
 	path = Mod.CustomWheelHologram
-	url = https://github.com/Distance-Modding/Mod.CustomWheelHologram.git
+	url = https://github.com/Distance-Modding/Mod.CustomWheelHologram
 [submodule "Mod.ChristmasSeasonalFeatures"]
 	path = Mod.ChristmasSeasonalFeatures
-	url = https://github.com/Distance-Modding/Mod.ChristmasSeasonalFeatures.git
+	url = https://github.com/Distance-Modding/Mod.ChristmasSeasonalFeatures
 [submodule "Mod.CustomCar"]
 	path = Mod.CustomCar
-	url = https://github.com/Distance-Modding/Mod.CustomCar.git
+	url = https://github.com/Distance-Modding/Mod.CustomCar
 [submodule "Mod.SceneDumper"]
 	path = Mod.SceneDumper
 	url = https://github.com/Distance-Modding/Mod.SceneDumper
@@ -36,7 +36,7 @@
 	url = https://github.com/Distance-Modding/Mod.NoEditorNumberLimits
 [submodule "Mod.HalloweenSeasonalFeatures"]
 	path = Mod.HalloweenSeasonalFeatures
-	url = https://github.com/Distance-Modding/Mod.HalloweenSeasonalFeatures.git
+	url = https://github.com/Distance-Modding/Mod.HalloweenSeasonalFeatures
 [submodule "Mod.OverheatMeter"]
 	path = Mod.OverheatMeter
-	url = https://github.com/Distance-Modding/Mod.OverheatMeter.git
+	url = https://github.com/Distance-Modding/Mod.OverheatMeter
