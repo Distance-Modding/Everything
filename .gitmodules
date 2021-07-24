@@ -34,3 +34,9 @@
 [submodule "Mod.NoEditorNumberLimits"]
 	path = Mod.NoEditorNumberLimits
 	url = https://github.com/Distance-Modding/Mod.NoEditorNumberLimits
+[submodule "Mod.HalloweenSeasonalFeatures"]
+	path = Mod.HalloweenSeasonalFeatures
+	url = https://github.com/Distance-Modding/Mod.HalloweenSeasonalFeatures.git
+[submodule "Mod.OverheatMeter"]
+	path = Mod.OverheatMeter
+	url = https://github.com/Distance-Modding/Mod.OverheatMeter.git
