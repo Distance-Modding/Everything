@@ -31,3 +31,6 @@
 [submodule "Mod.TextureModifier"]
 	path = Mod.TextureModifier
 	url = https://github.com/Distance-Modding/Mod.TextureModifier
+[submodule "Mod.NoEditorNumberLimits"]
+	path = Mod.NoEditorNumberLimits
+	url = https://github.com/Distance-Modding/Mod.NoEditorNumberLimits
