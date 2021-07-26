@@ -40,3 +40,6 @@
 [submodule "Mod.OverheatMeter"]
 	path = Mod.OverheatMeter
 	url = https://github.com/Distance-Modding/Mod.OverheatMeter
+[submodule "Mod.MenuUtilities"]
+	path = Mod.MenuUtilities
+	url = https://github.com/Distance-Modding/Mod.MenuUtilities
