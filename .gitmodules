@@ -43,3 +43,6 @@
 [submodule "Mod.MenuUtilities"]
 	path = Mod.MenuUtilities
 	url = https://github.com/Distance-Modding/Mod.MenuUtilities
+[submodule "Mod.UnityExplorer"]
+	path = Mod.UnityExplorer
+	url = https://github.com/Distance-Modding/Mod.UnityExplorer
