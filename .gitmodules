@@ -46,3 +46,9 @@
 [submodule "Mod.UnityExplorer"]
 	path = Mod.UnityExplorer
 	url = https://github.com/Distance-Modding/Mod.UnityExplorer
+[submodule "Mod.WheelieBoostFix"]
+	path = Mod.WheelieBoostFix
+	url = https://github.com/Distance-Modding/Mod.WheelieBoostFix
+[submodule "Mod.AdventureMaker"]
+	path = Mod.AdventureMaker
+	url = https://github.com/Distance-Modding/Mod.AdventureMaker
